@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 2</title>
+	<style type="text/css">
+		.border-none {
+			border-collapse: collapse;
+			width: 320px;
+			border: none
+		}
+
+		td {
+			border: 5px solid #000;
+			height: 30px;
+		}
+
+		.border-none tr:first-child td {
+			border-top: none;
+		}
+
+		.border-none tr:last-child td {
+			border-bottom: none;
+		}
+
+		.border-none tr td:first-child {
+			border-left: none;
+		}
+
+		.border-none tr td:last-child {
+			border-left: none;
+		}
+
+		.blank {
+
+			border: none;
+		}
+
+		.right-none {
+			border-right: none;
+		}
+	</style>
+
+</head>
+
+<body>
+	<table class="border-none">
+		<tr>
+			<td colspan="2"></td>
+			<td colspan="3"></td>
+			<td class="right-none" colspan="2" bgcolor="yellow"></td>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td colspan="4" rowspan="4" bgcolor="red"></td>
+			<td class="right-none" colspan="2" rowspan="2" bgcolor="yellow"></td>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td rowspan="2"></td>
+			<td class="right-none" rowspan="2"></td>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td colspan="2" bgcolor="black"></td>
+			<td colspan="2"></td>
+			<td class="right-none" colspan="2"></td>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td rowspan="2" bgcolor="yellow"></td>
+			<td colspan="2" bgcolor="black"></td>
+			<td colspan="2"></td>
+			<td class="right-none" colspan="2" rowspan="2" bgcolor="blue"></td>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td class="no-bot" colspan="2"></td>
+			<td colspan="2" bgcolor="black"></td>
+			<td class="blank"></td>
+		</tr>
+		<tr>
+			<td bgcolor="yellow"></td>
+			<td class="no-top"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="right-none"></td>
+			<td class="blank"></td>
+		</tr>
+
+	</table>
+</body>
+
+</html>

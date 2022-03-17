@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 3</title>
+</head>
+
+<body>
+	<main>
+		<form action="#">
+			<span>Name</span><br />
+			<input type="text" name="Name" size="14" minlength="2" placeholder="Ваше имя" autofocus="autofocus"
+				autocomplete="off" />
+			<br /><br />
+			<span>Email</span><br />
+			<input type="email" name="Email" placeholder="Ваша почта" />
+			<br /><br />
+			<span>Sex</span><br />
+			<input type="radio" name="Sex" value="a1" />Male
+			<input type="radio" name="Sex" value="a2" />Female
+			<br /><br />
+			<span>Current status</span><br />
+			<input type="checkbox" name="status" value="student" />Student <br />
+			<input type="checkbox" name="status" value="employed" />Employed <br />
+			<input type="checkbox" name="status" value="married" />Married
+			<br /><br />
+			<span>Month and Year of birth</span><br />
+			<select name="year">
+				<option value="y0" disabled="disabled">Выберите год</option>
+				<option value="y1">1990</option>
+				<option value="y2">1991</option>
+				<option value="y3">1992</option>
+				<option value="y4">1993</option>
+			</select>
+			<select name="month">
+				<option value="m0" disabled="disabled">Выберите месяц</option>
+				<option value="m1">Сентябрь</option>
+				<option value="m2">Октярбь</option>
+				<option value="m3">Ноябрь</option>
+				<option value="m4">Декабрь</option>
+			</select>
+			<br /><br />
+			<span>Month and Year of Birth NEW STYLE</span><br />
+			<input type="date" name="dateOfBirth" min="1920-01-01" max="2022-03-01" value="1990-01-01" />
+			<br /><br />
+			<span>Skills and Technologies</span><br />
+			<select multiple="multiple" size="10">
+				<optgroup label="Tech skills">
+					<option value="t1">HTML</option>
+					<option value="t2">CSS</option>
+					<option value="t3">JavaScript</option>
+					<option value="t4">git</option>
+				</optgroup>
+				<optgroup label="Soft skills">
+					<option value="s1">Time management</option>
+					<option value="s2">Proactivity</option>
+					<option value="s3">Teamwork</option>
+					<option value="s4">Leadership</option>
+				</optgroup>
+			</select>
+			<br /><br />
+			<span>Photo</span><br />
+			<input type="file" name="photo" accept="image/*" />
+			<br /><br />
+			<span>Comments</span><br />
+			<textarea name="comments" cols="22" rows="4"></textarea>
+			<br /><br />
+			<input type="submit" value="Save" />
+		</form>
+
+	</main>
+</body>
+
+</html>
