@@ -1,0 +1,31 @@
+body {
+	font-size: 1.7em;
+}
+
+li:nth-of-type(-n+2) a:visited {
+	color: blue;
+}
+li:nth-of-type(-n+2) a:link {
+	color: red;
+}
+
+.ya:visited {
+	color: #f70;
+}
+.ya:link {
+	color: #f70;
+}
+
+li:nth-last-of-type(-n+3) a:visited{
+	color: #666;
+}
+li:nth-last-of-type(-n+3) a:link{
+	color: #666;
+}
+
+a[target="_blank"]:after {
+	content: ' ⇱';
+	padding-right: 5px;
+	display: inline-block;
+	transform: scaleX(-1);
+}

@@ -1,0 +1,78 @@
+h1 {
+	font-size: 35px;
+	text-align: right;
+	color: orange;
+	margin-right: 40px;
+}
+
+p {
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: justify;
+}
+
+ul > li {
+	margin-left: 40px;
+}
+
+p:first-letter {
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p span {
+	background-color: green;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* СТИЛИ СПИСКА */
+
+ul > div {
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.storage > div {
+	color: blue;
+}
+
+.garden li:first-of-type ol {
+	color: grey;
+}
+
+ul > li:nth-of-type(2n) ol {
+	color: red;
+}
+
+.storage li:first-of-type ol {
+	color: green;
+}
+
+/* СТИЛИ ТАБЛИЦЫ */
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 400px;
+}
+
+th,
+td {
+	border: 1px solid black;
+}
+
+tr td:first-child {
+	color: orange;
+}
+
+tr td:nth-child(n + 2) {
+	text-align: center;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}

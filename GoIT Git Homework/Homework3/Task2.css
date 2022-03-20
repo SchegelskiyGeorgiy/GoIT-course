@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+}
+
+article p:first-child {
+	font-size: 1.5em;
+}
+
+article p:last-child{
+	color: #999;
+}
