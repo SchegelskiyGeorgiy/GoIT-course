@@ -1,0 +1,71 @@
+table {
+	height: 35px;
+}
+
+th {
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+td {
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	font-weight: bold;
+}
+div {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div:nth-of-type(3) {
+	margin-bottom: 15px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+label {
+	margin-left: 10px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+#Red + label {
+	color: red;
+	text-decoration: underline 2px;
+}
+#Green + label {
+	color: green;
+	text-decoration: underline 2px;
+}
+#Blue + label {
+	color: blue;
+	text-decoration: underline 2px;
+}
+
+input:checked + label {
+	opacity: 0.4;
+}
+
+#Red:checked ~ table tr td.red {
+	display: none;
+}
+#Green:checked ~ table tr td.green {
+	display: none;
+}
+#Blue:checked ~ table tr td.blue {
+	display: none;
+}
