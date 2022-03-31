@@ -1,0 +1,68 @@
+body {
+	font-family: Economica;
+	color: white;
+	font-size: 20px;
+}
+
+.main {
+	background-color: #1aa4ff;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+
+.menu {
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 23px;
+	position: relative;
+}
+
+.menu li {
+	display: inline-block;
+	line-height: 1.8em;
+	padding: 0 8px;
+}
+
+.menu > li:first-child {
+	margin-left: -40px;
+}
+
+.menu > li:hover {
+	background-color: #eeeeee;
+	color: #a1a1a1;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.menu ul {
+	height: 40px;
+	font-size: 21px;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #eeeeee;
+	padding-left: 15%;
+	visibility: hidden;
+	z-index: 1;
+}
+.menu ul li {
+	margin-left: -9px;
+	padding: 0 11px;
+	font-weight: normal;
+	line-height: 40px;
+}
+.menu ul li:hover {
+	color: black;
+}
+
+.menu > li:hover > ul {
+	visibility: visible;
+	transition: 0.2s;
+}
+
+p {
+	color: black;
+	margin-top: 100px;
+}
