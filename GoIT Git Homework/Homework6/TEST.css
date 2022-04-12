@@ -1,0 +1,48 @@
+body {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.base {
+	position: relative;
+	height: 150px;
+	margin-top: 15px;
+}
+
+.base div{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border: 2px solid red;
+	position: absolute;
+	overflow: hidden;
+}
+
+.one {
+	background-color: black;
+	left: 0;
+}
+
+.two {
+	background-color: gold;
+	left: 102px;
+}
+
+.three {
+	background-color: orange;
+	left: 204px;
+}
+
+.four {
+	background-color: blue;
+	left: 306px;
+}
+
+.base div:hover{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 6px solid red;
+	z-index: 10;
+	top: -13px;
+}
+

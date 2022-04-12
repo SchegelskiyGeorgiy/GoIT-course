@@ -1,0 +1,31 @@
+.base {
+	display: flex;
+	background-color: gold;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+	width: 400px;
+	margin: auto;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.square:hover {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 5px solid red;
+}
+
+/*
+
+FLEX очень прост в использовании, 
+но не даёт возможности абсолютного позиционирования,
+ наезжания итемов друг на друга, свободного перемещения по странице и пр. 
+ Подходит для лендингов и блоков, 
+ не подразумевающих движение при наведении.
+
+*/
