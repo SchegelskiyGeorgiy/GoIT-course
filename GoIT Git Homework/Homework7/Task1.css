@@ -1,0 +1,70 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+.sivtsvet{
+	width: 500px;
+	background-color: #eee;
+
+	margin: auto;
+}
+
+p{
+	margin: 25px auto;
+	text-align: justify;
+	height: 1.15em;
+	color: transparent;
+
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+p:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+.uline{
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid red;
+	margin: -6px 0;
+}
+
+.one {
+	font-size: 140px;
+}
+.two{
+	font-size: 121px;
+}
+.three{
+	font-size: 106px;
+}
+.four{
+	font-size: 92px;
+}
+.five{
+	font-size: 80px;
+}
+.six{
+	font-size: 69px;
+}
+.seven{
+	font-size: 50px;
+}
+.eight{
+	font-size: 42px;
+}
+.nine{
+	font-size: 30px;
+}
+.ten{
+	font-size: 25px;
+}
+.eleven{
+	font-size: 17px;
+}
+.twelve{
+	font-size: 10px;
+}

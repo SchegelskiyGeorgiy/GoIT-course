@@ -1,0 +1,126 @@
+/* font-family: 'Open Sans',
+sans-serif;
+font-family: 'Source Sans Pro',
+sans-serif;
+
+
+width: 1050px;
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	afont-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Чердак */
+
+header{
+	max-width: 1200px;
+	margin: auto;
+	height: 70px;
+}
+
+header .container{
+	position: relative;
+	width: 900px;
+	margin: -5px auto 0 auto;
+}
+
+h1{
+	font-weight: 400;
+	color: #ef8129;
+}
+
+h1 span{
+	font-weight: 800;
+	font-size: 38px;
+	color: #3070a8;
+	padding-left: 5px;
+}
+
+header .mainmenu{
+	list-style-type: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	text-transform: uppercase;
+}
+
+header .mainmenu li{
+	display: inline-block;
+
+	font-size: 14px;
+	font-weight: 600;
+	color: #989898;
+
+	line-height: 3.5em;
+	padding: 0 12px;
+}
+.mainmenu a{
+	text-decoration: none;
+	color: #989898;
+}
+
+.mainmenu li:hover{
+	border-bottom: 5px solid #3070a8;
+}
+.mainmenu li:hover > a{
+	color: #3070a8;
+}
+
+/* Приветственный экран */
+
+.first.background{
+	min-width: 900px;
+	max-width: 1200px;
+	height: 585px;
+
+	margin: -23px auto 0 auto;
+
+	background-image: url(back1.png);
+	background-position: center;
+
+	color: white;
+}
+
+.first p,
+.first h2{
+	text-align: center;
+}
+
+.first p:first-child{
+	padding-top: 130px;
+	font-size: 23px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+.first p strong{
+	font-weight: lighter;
+	font-size: 30px;
+}
+.first h2{
+	margin: auto;
+	width: 850px;
+	text-transform: uppercase;
+	font-size: 45px;
+}
+.first .description{
+	width: 600px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.first .btn{
+	background-color: transparent;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 20px 55px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	display: block;
+	margin: 40px auto 0 auto;
+	cursor: pointer;
+}
