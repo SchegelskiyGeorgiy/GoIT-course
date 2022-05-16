@@ -184,7 +184,7 @@ header .mainmenu li{
 
 .block.four .content{
 	width: 700px;
-	padding-left: 20px;
+	padding-left: 120px;
 }
 
 .block.four h3{
@@ -522,4 +522,113 @@ color: #3070a8;
 	font-size: 15px;
 	overflow-y: scroll;
 	color: #616060;
+}
+
+/* Contact information */
+
+.contacts{
+	min-width: 900px;
+	max-width: 1200px;
+	height: 325px;
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.contacts .container{
+	width: 900px;
+	height: 100%;
+	margin: auto;
+}
+
+.contacts .info{
+	width: 100%;
+	height: 100%;
+
+	position: relative;
+
+	box-sizing: border-box;
+	padding-left: 120px;
+	padding-top: 10px;
+}
+
+.contacts p{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 2em;
+	color: #666666;
+}
+
+.contacts .info .adress::before{
+	content: url(icons/map_pointer.png);
+	position: absolute;
+	left: 75px;
+}
+
+.contacts .info .telephone::before {
+	content: url(icons/phone.png);
+	position: absolute;
+	left: 75px;
+	margin-top: 3px;
+}
+
+.contacts .info .email::before {
+	content: url(icons/email.png);
+	position: absolute;
+	left: 75px;
+	margin-top: 3px;
+}
+
+.contacts .info img{
+	width: 48px;
+	height: 48px;
+	padding: 15px 8px;
+}
+.contacts .info a.first{
+	margin-left: -65px;	
+}
+
+.contacts .map{
+	width: 50%;
+	height: 100%;
+	overflow: visible;
+}
+
+#map_container{
+	max-width: 600px;
+	min-width: 450px;
+	overflow: hidden;
+}
+
+.contacts .map img{
+	width: 600px;
+	height: 325px;
+}
+
+/* Footer */
+
+footer{
+	min-width: 900px;
+	max-width: 1200px;
+	height: 120px;
+	margin: -14px auto 0px auto;
+
+	text-align: center;
+	font-size: 14px;
+	color: white;
+
+	background-color: #3070a8;
+}
+
+footer strong{
+	font-weight: 600;
+}
+
+footer p:nth-child(1){
+	padding-top: 32px;
+}
+
+footer p:nth-child(2) a{
+	color: black;
+	text-decoration: none;
 }

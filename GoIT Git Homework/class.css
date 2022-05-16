@@ -1,0 +1,57 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 40px;
+	color: orange;
+	font-weight: 600;
+	margin-bottom: 50px;
+	padding-left: 40px;
+}
+
+.container{
+	width: 100%;
+	min-width: 840px;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 40px;
+	row-gap: 30px;
+}
+
+.customer{
+	width: calc(50% - 20px);
+	min-width: 400px;
+	min-height: 85px;
+	position: relative;
+}
+
+.customer img{
+	border-radius: 5px;
+	position: absolute;
+}
+
+.customer h2{
+	font-size: 18px;
+	color: #637f83;
+	padding-left: 115px;
+	margin-top: 0;
+}
+
+.customer p{
+	font-size: 13px;
+	padding-left: 115px;
+	margin-top: -10px;
+	margin-bottom: 0;
+	line-height: 2em;
+	color: #959595;
+}
+
+.customer p a{
+	color: orange;
+	text-decoration: none;
+}
+
+.customer p a:hover{
+	text-decoration: underline;
+}
