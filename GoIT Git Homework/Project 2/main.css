@@ -1,0 +1,80 @@
+body{
+	background-color: #f6f9f9;
+}
+
+.showcase {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+
+	text-align: center;
+
+	padding-bottom: 40px;
+}
+
+.showcase h2 {
+	color: #2d394f;
+	font-size: 50px;
+	font-weight: 500;
+	text-shadow: 0 0 1px #2d394f;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.showcase p{
+	color: #a4a5a5;
+	font-size: 20px;
+	margin: 10px 0 40px 0;
+	padding: 0;
+}
+
+.showcase p a{
+	text-decoration: none;
+	color: rgb(77, 77, 77);
+	font-weight: 600;
+}
+
+.showcase img{
+	margin: 10px;
+	display: inline-block;
+	width: 520px;
+	height: 340px;
+}
+
+.photogrid .bin{
+	display: inline-block;
+	position: relative;
+	width: 520px;
+	height: 340px;
+	margin: 15px;
+
+}
+
+.photogrid .focus{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 2;
+
+	background-color: rgba(48,168,243,0.9);
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+
+	visibility: hidden;
+}
+
+.photogrid .focus img{
+	width: 40px;
+	height: 40px;
+
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0;
+	margin-top: 150px;
+}
+
+.photogrid div.bin:hover .focus{
+	visibility: visible;
+}
