@@ -1,5 +1,6 @@
 body{
 	background-color: #f6f9f9;
+	min-width: 800px;
 }
 
 .showcase {
@@ -41,7 +42,7 @@ body{
 	height: 340px;
 }
 
-.photogrid .bin{
+.photogrid .cell{
 	display: inline-block;
 	position: relative;
 	width: 520px;
@@ -75,6 +76,50 @@ body{
 	margin-top: 150px;
 }
 
-.photogrid div.bin:hover .focus{
+.photogrid .cell:hover .focus{
 	visibility: visible;
+}
+
+.super-cell{
+	width: 100%;
+	min-width: 800px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+
+	avisibility: hidden;
+}
+
+.super-cell img{
+	width: 80%;
+	max-width: 1000px;
+	height: auto;
+
+	position: relative;
+	top: 173px;
+	z-index: 100;
+}
+
+.super-cell button{
+	position: absolute;
+	top: 185px;
+	right: 20%;
+	z-index: 101;
+
+	width: 25px;
+	height: 25px;
+	border: 0px;
+	font-weight: 700;
+	font-size: 10px;
+	color: white;
+	background-color: rgb(250, 152, 4);
+
+	transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  cursor: pointer;
 }
