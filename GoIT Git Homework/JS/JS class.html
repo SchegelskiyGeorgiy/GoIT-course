@@ -13,11 +13,15 @@
    <p id="msg">Some text</p>
 
    <script>
-      var name = prompt('What is your name?', 'My name is');
-      console.log(name);
-      alert('Hello ' + name);
-      confirm('Are you over 18 y.o.?');
-
+      function evenOrOdd(number) {
+         if (number % 2) {
+            return 'Odd';
+         } else {
+            return 'Even';
+         }
+      }
+      var number = +prompt('Enter a number');
+      console.log(evenOrOdd(number));
 
    </script>
 </body>
