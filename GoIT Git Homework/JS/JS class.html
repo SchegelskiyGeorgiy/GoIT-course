@@ -12,16 +12,14 @@
    <h1 id="header">Hello world!</h1>
    <p id="msg">Some text</p>
 
+
    <script>
-      function evenOrOdd(number) {
-         if (number % 2) {
-            return 'Odd';
-         } else {
-            return 'Even';
-         }
+      function upperFirst(string) {
+         return string[0].toUpperCase() + string.substring(1);
       }
-      var number = +prompt('Enter a number');
-      console.log(evenOrOdd(number));
+
+      console.log(upperFirst('hello'));
+
 
    </script>
 </body>
